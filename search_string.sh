@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Check if exactly two arguments are provided
+# Check if exactly two arguments are providedd
 if [ $# -ne 2 ]; then
     echo "Usage: $0 <file_or_directory> <search_string>"
     exit 1
