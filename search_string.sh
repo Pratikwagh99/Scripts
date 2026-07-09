@@ -19,7 +19,7 @@ fi
 if [ -f "$path" ]; then
     grep -n "$search" "$path"
 
-# If the path is a directory
+# If the path is a directory or not 
 elif [ -d "$path" ]; then
     grep -rn "$search" "$path"
 
