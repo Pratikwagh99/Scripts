@@ -6,5 +6,5 @@ if [ ! -f "data.txt" ]; then
     exit 1
 fi
 
-# Print liness where the second field is greater than 10
+# Print lines where the second field is greater than 10
 awk '$2 > 10' data.txt
