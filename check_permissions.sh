@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Check if a filename is provided
+# Check if a filename is provided or not
 if [ $# -ne 1 ]; then
     echo "Usage: $0 <filename>"
     exit 1
